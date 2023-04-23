@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* Mobile */
+/* Cores:
+    Azul - #0498D6
+    Azul claro - #3ebbec
+    Azul escuro - #076CED
+    Verde - #07E3AD
+
+*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#3ebbec;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+div > img{
+    width: 200px;
+    height: 200px;
+}
+#imagem{
+    background: url(../imagens/pexels-emre-can-acer-2110951.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+
+#login{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+#formulario{
+    display: block;
+    padding: 10px;
+}
+#formulario > h1{
+    text-align: center;
+}
+#formulario > P{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
