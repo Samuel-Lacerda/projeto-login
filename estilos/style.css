@@ -63,9 +63,6 @@ div > img{
 #formulario > P{
     text-align: center;
 }
-form{
-    text-align: center;
-}
 form > div > input[type=submit]{
     display: block; 
     font-size: 1em;
@@ -105,4 +102,18 @@ form > div > input[type=button]:hover{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+}
+.campo > label > span{
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+.campo > input{
+    font-size: 1em;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
 }
